@@ -10,7 +10,7 @@ body {
   display: block;
   text-align: right;
 }
-.top-element img {
+#matrix {
   width: 100%;
 }
 .top-element .details {
@@ -88,7 +88,7 @@ label[for="new-task"] {
   display: block;
   margin: 0 0 20px;
 }
-input#new-task {
+#new-task {
   width: 318px;
 }
 p > button:hover {
@@ -121,20 +121,20 @@ li > label {
 li >    input[type="text"] {
   width: 226px
 }
-li > button.delete:hover {
+.delete:hover {
   color: #cf2323;
 }
-button.delete img {
+.delete-pict {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
-button.delete img:hover {
+.delete-pict:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-ul#completed label {
+#completed-item {
   text-decoration: line-through
   color: #888;
 }
@@ -144,11 +144,11 @@ ul li input[type=text] {
   display:none
 }
 
-ul li.edit-mode input[type=text] {
+#editable-text {
   display:inline-block;
   width:224px
 }
 
-ul li.edit-mode label {
+#editable-item {
   display:none;
 }
