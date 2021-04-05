@@ -176,6 +176,19 @@ ul li input[type=text] {
   width: 224px;
 }
 
+ul li.edit-mode input[type=text] {
+  display:inline-block;
+  width:224px
+}
+
 #editable-item {
   display: none;
+}
+
+ul li input[type=text] {
+  display:none
+}
+
+ul li.edit-mode label {
+  display:none;
 }
