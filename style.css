@@ -13,7 +13,7 @@ body {
 .top-element img {
   width: 100%;
 }
-.top-element .details {
+.top-element .top-element__details {
   font-family: fantasy, cursive;
 }
 
